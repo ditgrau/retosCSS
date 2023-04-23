@@ -39,5 +39,10 @@
     border-right: groove;
     border-color: rgb(90, 185, 206);
     border-width: 0.2em;
+    padding-left: 0.2em;
     
+}
+.cell-top {
+    display:flex;
+    justify-content: center;
 }
