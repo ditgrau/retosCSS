@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-weight: 600;
 }
 
 .root {
@@ -8,41 +9,61 @@
     justify-content: center;
 }
 
-.line1, .line2, .line3, .line4 {
-    display:flex;
-    border-bottom: groove;
-    border-left: groove;
-    border-color: rgb(90, 185, 206);
-    border-width: 0.2em;
-}
-
 .line1{
-   background-color: rgb(0, 49, 0);
-   color:rgb(179, 243, 201);
-   border-top: groove;
-   border-color: rgb(90, 185, 206);
-   border-width: 0.2em;
+    background-color: rgb(163, 252, 163);
+    color:black;
+    border: groove;
+    border-color: rgb(221, 221, 221);
+    border-width: 0.2em;
+    display:flex;
+    justify-content: center;
+ }
 
+.line2 {
+    display: flex;
+ }
+
+.col {
+    width: 33%;
+    border-right: groove;
+    border-left: groove;
+    border-color: rgb(221, 221, 221);
+    border-width: 0.2em;
+ }
+
+.col2 {
+    width: 34%;
+    color: rgb(216, 14, 14)
+ }
+
+.cell-center {
+    display:flex;
+    justify-content: center;
+ }
+
+.big-cell1, .big-cell2 {
+    height: 66.666%;
 }
 
-.line2, .line4 {
-    background-color: rgb(196, 235, 209);
-    
+.small-cell {
+    height: 33.333%;
 }
 
-.line3 {
-    background-color:rgb(163, 208, 153);
+.big-cell1 {
+    background-color: rgb(158, 255, 255);
+    display:flex;
+    align-items: center;
+}
+
+.big-cell2 {
+    background-color: rgb(255, 165, 236);
+    display:flex;
+    align-items: flex-end;
+    justify-content: right;
 }
 
 .cell {
-    width: 25%;
-    border-right: groove;
-    border-color: rgb(90, 185, 206);
+    border-bottom: groove;
+    border-color: rgb(221, 221, 221);
     border-width: 0.2em;
-    padding-left: 0.2em;
-    
-}
-.cell-top {
-    display:flex;
-    justify-content: center;
 }
