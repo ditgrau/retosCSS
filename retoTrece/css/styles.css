@@ -1,10 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 .root {
     background-color: white;
-    Display:block;
+    display:block;
     justify-content: center;
 }
 
-.line1, .line2, .line3 {
+.line1, .line2, .line3, .line4 {
     display:flex;
     border-bottom: groove;
     border-left: groove;
@@ -21,7 +25,7 @@
 
 }
 
-.line2 {
+.line2, .line4 {
     background-color: rgb(196, 235, 209);
     
 }
@@ -31,7 +35,7 @@
 }
 
 .cell {
-    width: 50%;
+    width: 25%;
     border-right: groove;
     border-color: rgb(90, 185, 206);
     border-width: 0.2em;
