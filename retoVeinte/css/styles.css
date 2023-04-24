@@ -25,6 +25,7 @@
 }
 .cat {
     border: solid 0.05em black;
+    font-weight: 600;
 }
 
 .main-line, .line-form, .line-table, .line-text {
@@ -34,6 +35,10 @@
 .cell-left {
     border: solid 0.05em black;
     width: 5em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .cell {
     border: solid 0.05em black;
