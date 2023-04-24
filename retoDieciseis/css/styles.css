@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(99, 37, 12)
 }
 
 .root {
@@ -10,7 +11,7 @@
 }
 
 .line1{
-    background-color: rgb(163, 252, 163);
+    background-color: rgb(110, 172, 110);
     color:black;
     border: groove;
     border-color: rgb(221, 221, 221);
@@ -20,50 +21,38 @@
  }
 
 .line2 {
-    display: flex;
- }
+    display:flex;
+    background-color: rgb(251, 205, 153);
+    height: 33%;
+}
 
-.col {
-    width: 33%;
-    border-right: groove;
-    border-left: groove;
-    border-color: rgb(221, 221, 221);
-    border-width: 0.2em;
- }
+.line3 {
+    display: flex;
+}
+
+.col1 {
+    width: 40%;
+}
 
 .col2 {
-    width: 34%;
-    color: rgb(216, 14, 14)
- }
-
-.cell-center {
-    display:flex;
-    justify-content: center;
- }
-
-.big-cell1, .big-cell2 {
-    height: 66.666%;
+    width: 35%;
 }
 
-.small-cell {
-    height: 33.333%;
-}
-
-.big-cell1 {
-    background-color: rgb(158, 255, 255);
-    display:flex;
-    align-items: center;
-}
-
-.big-cell2 {
-    background-color: rgb(255, 165, 236);
-    display:flex;
-    align-items: flex-end;
-    justify-content: right;
+.col3 {
+    width: 25%;
 }
 
 .cell {
-    border-bottom: groove;
-    border-color: rgb(221, 221, 221);
-    border-width: 0.2em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-big2 {
+    background-color: rgb(247, 255, 133);
+    justify-content: space-around;
+}
+
+.line3 { 
+    background-image: url(fondo-tabla);
 }
