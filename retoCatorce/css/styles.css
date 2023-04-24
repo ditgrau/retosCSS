@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.background {
+    position:absolute;
+    background: url(../img/pingu.png) no-repeat;
+    background-size: 40em;
+    width: 40em;
+    height: 40em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    width: 100%;
+    margin: 4em;
+    margin-bottom: 11em;
+    border: ridge white 0.2em;
+
+}
+.line1 {
+    background-color: white;
+    border-bottom: ridge white 0.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line2 {
+    display:flex;
+    background-color: rgb(255, 255, 170);
+   
+}
+.cell1 {
+    border-right: ridge white 0.2em;
+}
+
+.cell1, .cell {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
