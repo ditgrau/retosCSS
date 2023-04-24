@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+.root {
+    background-color: white;
+}
+
+.table {
+    border:solid;
+    border-color: black;
+    border-width: 0.1em;
+    padding:0.1em;
+    display: flex; 
+    overflow: auto;   
+}
+.col1 {
+    width: 20%;
+}
+
+.col2 {
+    width: 80%;
+    display:block;   
+}
+
+.line1, .line2, .line3, .line4, .line5, .line6 {
+    display: flex;
+    width: 100%;
+}
+
+.line1, .line1-m, .line3 {
+    font-weight: 600;
+}
+
+.cell {
+    border: solid;
+    border-width: 0.1em;
+    margin:0.05em;
+    padding: 0.01em;
+    border-radius: 0.1em;
+    width: 100%;
+    display: block;
+    
+}
+
+.main {
+    display:flex;
+    justify-content: center;
+}
