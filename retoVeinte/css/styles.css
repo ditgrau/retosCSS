@@ -4,41 +4,42 @@
 
 .root {
     background-color: white;
+    display:flex;
+    margin: 1em;
 }
 
 .table {
-    border:solid;
-    border-color: black;
-    border-width: 0.1em;
-    display:inline-block;
-}
-
-.main-line {
+    border:solid black 0.05em;
     display: flex;
-}
+    flex-direction: column;
+    gap: 0.1em;
+    padding:0.2em;
+    width: fit-content;
 
-.line {
+
+}
+.body-table, .cell-right {
     display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+}
+.cat {
+    border: solid 0.05em black;
 }
 
-.col, .col1 {
-    width: 50%;
+.main-line, .line-form, .line-table, .line-text {
+    display: flex;
+    gap:0.1em;
 }
-
 .cell-left {
-    height: 100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    border: solid 0.05em black;
+    width: 5em;
 }
-
-.cell-m, .cell-left, .cell {
-    border: solid;
-    border-radius: 0.2em;
-    border-width: 0.1em;
-    margin: 0.05em
-   
+.cell {
+    border: solid 0.05em black;
+    width: 100%;
 }
-.pinta {
-    background-color: blue;
+.cell-right {
+    width: 4em;
+    
 }
